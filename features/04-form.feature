@@ -6,7 +6,7 @@ Fonctionnalité: Processus de paiement (checkout)
   Afin de recevoir mes produits
 
   Contexte:
-    Étant donné que je suis connecté avec "standard_user" et "secret_sauce"
+    Étant donné je suis connecté avec "standard_user" et "secret_sauce"
     Et j'ajoute le produit "Sauce Labs Backpack" au panier
     Et je vais au panier
     Et je clique sur le bouton checkout

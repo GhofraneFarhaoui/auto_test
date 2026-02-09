@@ -14,11 +14,18 @@ export class CustomWorld extends World {
     chromeOptions.addArguments('--start-maximized');
     chromeOptions.addArguments('--disable-blink-features=AutomationControlled');
     chromeOptions.addArguments('--no-sandbox');
+    chromeOptions.addArguments('--disable-dev-shm-usage');
+    chromeOptions.addArguments('--disable-gpu');
+    
+    console.log('🔄 Initialisation du navigateur Chrome...');
     
     this.driver = await new Builder()
       .forBrowser('chrome')
       .setChromeOptions(chromeOptions)
       .build();
+    
+    // Augmenter le timeout implicite
+    await this.driver.manage().setTimeouts({ implicit: 10000 });
     
     console.log('✅ Navigateur Chrome initialisé');
   }

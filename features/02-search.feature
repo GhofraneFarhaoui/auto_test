@@ -6,7 +6,7 @@ Fonctionnalité: Recherche et tri de produits
   Afin de trouver ce que je cherche facilement
 
   Contexte:
-    Étant donné que je suis connecté avec "standard_user" et "secret_sauce"
+    Étant donné je suis connecté avec "standard_user" et "secret_sauce"
 
   Scénario: Affichage de tous les produits après connexion
     Alors je vois 6 produits affichés

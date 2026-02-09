@@ -6,7 +6,7 @@ Fonctionnalité: Gestion du panier d'achat
   Afin d'acheter des produits
 
   Contexte:
-    Étant donné que je suis connecté avec "standard_user" et "secret_sauce"
+    Étant donné je suis connecté avec "standard_user" et "secret_sauce"
 
   Scénario: Ajout d'un produit au panier avec succès
     Quand j'ajoute le produit "Sauce Labs Backpack" au panier
