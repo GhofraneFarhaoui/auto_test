@@ -1,31 +1,26 @@
-#language: fr
+Feature: Shopping cart management
 
-Fonctionnalité: Gestion du panier d'achat
-  En tant qu'utilisateur connecté
-  Je veux gérer mon panier
-  Afin d'acheter des produits
+Background:
+  Given je suis connecté avec "standard_user" et "secret_sauce"
 
-  Contexte:
-    Étant donné je suis connecté avec "standard_user" et "secret_sauce"
+Scenario: Add one product to cart
+  When j'ajoute le produit "Sauce Labs Backpack" au panier
+  Then le badge du panier affiche "1"
+  And je vais au panier
+  And je vois 1 produit dans le panier
 
-  Scénario: Ajout d'un produit au panier avec succès
-    Quand j'ajoute le produit "Sauce Labs Backpack" au panier
-    Alors le badge du panier affiche "1"
-    Et je vais au panier
-    Et je vois 1 produit dans le panier
+Scenario: Add multiple products to cart
+  When j'ajoute le produit "Sauce Labs Backpack" au panier
+  And j'ajoute le produit "Sauce Labs Bike Light" au panier
+  And j'ajoute le produit "Sauce Labs Bolt T-Shirt" au panier
+  Then le badge du panier affiche "3"
 
-  Scénario: Ajout de plusieurs produits au panier
-    Quand j'ajoute le produit "Sauce Labs Backpack" au panier
-    Et j'ajoute le produit "Sauce Labs Bike Light" au panier
-    Et j'ajoute le produit "Sauce Labs Bolt T-Shirt" au panier
-    Alors le badge du panier affiche "3"
+Scenario: Remove product from cart
+  When j'ajoute le produit "Sauce Labs Backpack" au panier
+  And je vais au panier
+  And je supprime le produit du panier à l'index 0
+  Then le panier est vide
 
-  Scénario: Suppression d'un produit du panier
-    Quand j'ajoute le produit "Sauce Labs Backpack" au panier
-    Et je vais au panier
-    Et je supprime le produit du panier à l'index 0
-    Alors le panier est vide
-
-  Scénario: Panier vide au départ
-    Quand je vais au panier
-    Alors le panier est vide
+Scenario: Cart is empty by default
+  When je vais au panier
+  Then le panier est vide

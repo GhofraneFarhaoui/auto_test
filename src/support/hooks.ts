@@ -56,6 +56,10 @@ After(async function (this: CustomWorld, { result, pickle }) {
   const status = result?.status === Status.PASSED ? '✅ SUCCÈS' : '❌ ÉCHEC';
   console.log(`${status}: ${pickle.name}`);
   
+  if (result?.status === Status.FAILED && result.message) {
+    console.error(`Erreur: ${result.message}`);
+  }
+  
   try {
     await this.cleanup();
   } catch (error) {

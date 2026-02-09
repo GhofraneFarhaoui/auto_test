@@ -4,7 +4,7 @@ import { CustomWorld } from '../support/world';
 import { LoginPage } from '../pages/LoginPage';
 import { ProductsPage } from '../pages/ProductsPage';
 
-Given('que je suis sur la page de connexion', async function (this: CustomWorld) {
+Given('je suis sur la page de connexion', async function (this: CustomWorld) {
   const loginPage = new LoginPage(this.driver);
   await loginPage.open();
 });

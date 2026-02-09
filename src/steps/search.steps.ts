@@ -5,7 +5,7 @@ import { LoginPage } from '../pages/LoginPage';
 import { ProductsPage } from '../pages/ProductsPage';
 import { By } from 'selenium-webdriver';
 
-Given('que je suis connecté avec {string} et {string}', async function (this: CustomWorld, username: string, password: string) {
+Given('je suis connecté avec {string} et {string}', async function (this: CustomWorld, username: string, password: string) {
   const loginPage = new LoginPage(this.driver);
   await loginPage.open();
   await loginPage.login(username, password);

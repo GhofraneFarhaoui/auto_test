@@ -1,29 +1,24 @@
-const report = require('cucumber-html-reporter');
 const fs = require('fs');
 const path = require('path');
 
 const reportsDir = path.join(__dirname, 'reports');
-if (!fs.existsSync(reportsDir)) {
-  fs.mkdirSync(reportsDir, { recursive: true });
+const jsonFile = path.join(reportsDir, 'cucumber-report.json');
+
+if (fs.existsSync(jsonFile)) {
+  console.log('\n✅ Rapport JSON généré avec succès dans reports/cucumber-report.json');
+  
+  // Afficher un résumé
+  const report = JSON.parse(fs.readFileSync(jsonFile, 'utf-8'));
+  console.log(`\n📊 Résumé:`);
+  report.forEach(feature => {
+    console.log(`\n📁 ${feature.name}`);
+    feature.elements.forEach(scenario => {
+      const passed = scenario.steps.filter(s => s.result.status === 'passed').length;
+      const failed = scenario.steps.filter(s => s.result.status === 'failed').length;
+      const status = failed > 0 ? '❌' : '✅';
+      console.log(`  ${status} ${scenario.name} (${passed}/${scenario.steps.length} steps)`);
+    });
+  });
+} else {
+  console.log('\n⚠️ Rapport JSON non trouvé. Exécutez d\'abord les tests.');
 }
-
-const options = {
-  theme: 'bootstrap',
-  jsonFile: 'reports/cucumber-report.json',
-  output: 'reports/cucumber-report.html',
-  reportSuiteAsScenarios: true,
-  scenarioTimestamp: true,
-  launchReport: true,
-  metadata: {
-    'Projet': 'Test Logiciel - Mini-Projet',
-    'Étudiant': 'Votre Nom',
-    'Framework': 'Cucumber + Selenium + TypeScript',
-    'Navigateur': 'Chrome',
-    'Plateforme': process.platform,
-    'Date d\'exécution': new Date().toLocaleString('fr-FR')
-  },
-  failedSummaryReport: true
-};
-
-report.generate(options);
-console.log('\n✅ Rapport HTML généré avec succès dans reports/cucumber-report.html');

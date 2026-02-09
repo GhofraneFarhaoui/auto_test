@@ -4,6 +4,7 @@ import { CustomWorld } from '../support/world';
 import { ProductsPage } from '../pages/ProductsPage';
 import { CartPage } from '../pages/CartPage';
 
+
 When('j\'ajoute le produit {string} au panier', async function (this: CustomWorld, productName: string) {
   const productsPage = new ProductsPage(this.driver);
   await productsPage.addProductToCartByName(productName);

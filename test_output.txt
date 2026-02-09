@@ -1,0 +1,1315 @@
+
+> projet-test-selenium-ts@1.0.0 test
+> cucumber-js
+
+🚀 Début de l'exécution des tests
+
+
+📝 Scénario: Successful login with valid credentials
+🔄 Initialisation du navigateur Chrome...
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ ÉCHEC: Successful login with valid credentials
+Erreur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+📝 Scénario: Login fails with wrong password
+🔄 Initialisation du navigateur Chrome...
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ ÉCHEC: Login fails with wrong password
+Erreur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+📝 Scénario: Login fails with empty fields
+🔄 Initialisation du navigateur Chrome...
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ ÉCHEC: Login fails with empty fields
+Erreur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+📝 Scénario: Login fails with empty username
+🔄 Initialisation du navigateur Chrome...
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ ÉCHEC: Login fails with empty username
+Erreur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+📝 Scénario: Display all products after login
+🔄 Initialisation du navigateur Chrome...
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ ÉCHEC: Display all products after login
+Erreur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+📝 Scénario: Sort products by name (A to Z)
+🔄 Initialisation du navigateur Chrome...
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ ÉCHEC: Sort products by name (A to Z)
+Erreur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+📝 Scénario: Sort products by price (low to high)
+🔄 Initialisation du navigateur Chrome...
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ ÉCHEC: Sort products by price (low to high)
+Erreur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+📝 Scénario: Add one product to cart
+🔄 Initialisation du navigateur Chrome...
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ ÉCHEC: Add one product to cart
+Erreur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+📝 Scénario: Add multiple products to cart
+🔄 Initialisation du navigateur Chrome...
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ ÉCHEC: Add multiple products to cart
+Erreur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+📝 Scénario: Remove product from cart
+🔄 Initialisation du navigateur Chrome...
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ ÉCHEC: Remove product from cart
+Erreur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+📝 Scénario: Cart is empty by default
+🔄 Initialisation du navigateur Chrome...
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ ÉCHEC: Cart is empty by default
+Erreur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+📝 Scénario: Successful checkout form submission
+🔄 Initialisation du navigateur Chrome...
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ ÉCHEC: Successful checkout form submission
+Erreur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+📝 Scénario: Successful order completion
+🔄 Initialisation du navigateur Chrome...
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ ÉCHEC: Successful order completion
+Erreur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+📝 Scénario: Checkout fails with missing first name
+🔄 Initialisation du navigateur Chrome...
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ ÉCHEC: Checkout fails with missing first name
+Erreur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+📝 Scénario: Checkout fails with missing last name
+🔄 Initialisation du navigateur Chrome...
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ ÉCHEC: Checkout fails with missing last name
+Erreur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+📝 Scénario: Checkout fails with missing postal code
+🔄 Initialisation du navigateur Chrome...
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ Erreur lors de l'initialisation du navigateur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  remoteStacktrace: '\tGetHandleVerifier [0x00007FF7F8372142+3514994]\n' +
+    '\t(No symbol) [0x00007FF7F7F90CE2]\n' +
+    '\t(No symbol) [0x00007FF7F7E376AA]\n' +
+    '\t(No symbol) [0x00007FF7F7E717E2]\n' +
+    '\t(No symbol) [0x00007FF7F7E70ADD]\n' +
+    '\t(No symbol) [0x00007FF7F7E6B9DF]\n' +
+    '\t(No symbol) [0x00007FF7F7E67F52]\n' +
+    '\t(No symbol) [0x00007FF7F7EB0AB4]\n' +
+    '\t(No symbol) [0x00007FF7F7EA5D93]\n' +
+    '\t(No symbol) [0x00007FF7F7E74BDC]\n' +
+    '\t(No symbol) [0x00007FF7F7E75C64]\n' +
+    '\tGetHandleVerifier [0x00007FF7F839E16B+3695259]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83F6737+4057191]\n' +
+    '\tGetHandleVerifier [0x00007FF7F83EE4E3+4023827]\n' +
+    '\tGetHandleVerifier [0x00007FF7F80C04F9+689705]\n' +
+    '\t(No symbol) [0x00007FF7F7F9C048]\n' +
+    '\t(No symbol) [0x00007FF7F7F98044]\n' +
+    '\t(No symbol) [0x00007FF7F7F981C9]\n' +
+    '\t(No symbol) [0x00007FF7F7F888C4]\n' +
+    '\tBaseThreadInitThunk [0x00007FFA5597E8D7+23]\n' +
+    '\tRtlUserThreadStart [0x00007FFA5744C53C+44]\n'
+}
+❌ ÉCHEC: Checkout fails with missing postal code
+Erreur: SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+    at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+    at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+    at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+
+🏁 Fin de l'exécution des tests
+Failures:
+
+1) Scenario: Successful login with valid credentials # features\01-login.feature:6
+   × Before # src\support\hooks.ts:20
+       SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+       Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+           at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+           at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+           at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+           at processTicksAndRejections (node:internal/process/task_queues:105:5)
+   - Given je suis sur la page de connexion # src\steps\login.steps.ts:7
+   - When je saisis le nom d'utilisateur "standard_user" # src\steps\login.steps.ts:12
+   - And je saisis le mot de passe "secret_sauce" # src\steps\login.steps.ts:17
+   - And je clique sur le bouton de connexion # src\steps\login.steps.ts:22
+   - Then je suis redirigé vers la page des produits # src\steps\login.steps.ts:27
+   √ After # src\support\hooks.ts:55
+
+2) Scenario: Login fails with wrong password # features\01-login.feature:12
+   × Before # src\support\hooks.ts:20
+       SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+       Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+           at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+           at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+           at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+           at processTicksAndRejections (node:internal/process/task_queues:105:5)
+   - Given je suis sur la page de connexion # src\steps\login.steps.ts:7
+   - When je saisis le nom d'utilisateur "standard_user" # src\steps\login.steps.ts:12
+   - And je saisis le mot de passe "mauvais_mot_de_passe" # src\steps\login.steps.ts:17
+   - And je clique sur le bouton de connexion # src\steps\login.steps.ts:22
+   - Then un message d'erreur "Username and password do not match" s'affiche # src\steps\login.steps.ts:33
+   √ After # src\support\hooks.ts:55
+
+3) Scenario: Login fails with empty fields # features\01-login.feature:18
+   × Before # src\support\hooks.ts:20
+       SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+       Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+           at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+           at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+           at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+           at processTicksAndRejections (node:internal/process/task_queues:105:5)
+   - Given je suis sur la page de connexion # src\steps\login.steps.ts:7
+   - When je clique sur le bouton de connexion # src\steps\login.steps.ts:22
+   - Then un message d'erreur "Username is required" s'affiche # src\steps\login.steps.ts:33
+   √ After # src\support\hooks.ts:55
+
+4) Scenario: Login fails with empty username # features\01-login.feature:22
+   × Before # src\support\hooks.ts:20
+       SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+       Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+           at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+           at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+           at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+           at processTicksAndRejections (node:internal/process/task_queues:105:5)
+   - Given je suis sur la page de connexion # src\steps\login.steps.ts:7
+   - When je saisis le mot de passe "secret_sauce" # src\steps\login.steps.ts:17
+   - And je clique sur le bouton de connexion # src\steps\login.steps.ts:22
+   - Then un message d'erreur "Username is required" s'affiche # src\steps\login.steps.ts:33
+   √ After # src\support\hooks.ts:55
+
+5) Scenario: Display all products after login # features\02-search.feature:6
+   × Before # src\support\hooks.ts:20
+       SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+       Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+           at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+           at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+           at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+           at processTicksAndRejections (node:internal/process/task_queues:105:5)
+   - Given je suis connecté avec "standard_user" et "secret_sauce" # src\steps\search.steps.ts:8
+   - Then je vois 6 produits affichés # src\steps\search.steps.ts:14
+   √ After # src\support\hooks.ts:55
+
+6) Scenario: Sort products by name (A to Z) # features\02-search.feature:9
+   × Before # src\support\hooks.ts:20
+       SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+       Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+           at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+           at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+           at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+           at processTicksAndRejections (node:internal/process/task_queues:105:5)
+   - Given je suis connecté avec "standard_user" et "secret_sauce" # src\steps\search.steps.ts:8
+   - When je trie les produits par "Name (A to Z)" # src\steps\search.steps.ts:20
+   - Then les produits sont triés par ordre alphabétique # src\steps\search.steps.ts:27
+   √ After # src\support\hooks.ts:55
+
+7) Scenario: Sort products by price (low to high) # features\02-search.feature:13
+   × Before # src\support\hooks.ts:20
+       SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+       Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+           at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+           at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+           at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+           at processTicksAndRejections (node:internal/process/task_queues:105:5)
+   - Given je suis connecté avec "standard_user" et "secret_sauce" # src\steps\search.steps.ts:8
+   - When je trie les produits par "Price (low to high)" # src\steps\search.steps.ts:20
+   - Then les produits sont triés par prix croissant # src\steps\search.steps.ts:39
+   √ After # src\support\hooks.ts:55
+
+8) Scenario: Add one product to cart # features\03-cart.feature:6
+   × Before # src\support\hooks.ts:20
+       SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+       Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+           at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+           at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+           at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+           at processTicksAndRejections (node:internal/process/task_queues:105:5)
+   - Given je suis connecté avec "standard_user" et "secret_sauce" # src\steps\search.steps.ts:8
+   - When j'ajoute le produit "Sauce Labs Backpack" au panier # src\steps\cart.steps.ts:8
+   - Then le badge du panier affiche "1" # src\steps\cart.steps.ts:13
+   - And je vais au panier # src\steps\cart.steps.ts:19
+   - And je vois 1 produit dans le panier # src\steps\cart.steps.ts:24
+   √ After # src\support\hooks.ts:55
+
+9) Scenario: Add multiple products to cart # features\03-cart.feature:12
+   × Before # src\support\hooks.ts:20
+       SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+       Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+           at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+           at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+           at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+           at processTicksAndRejections (node:internal/process/task_queues:105:5)
+   - Given je suis connecté avec "standard_user" et "secret_sauce" # src\steps\search.steps.ts:8
+   - When j'ajoute le produit "Sauce Labs Backpack" au panier # src\steps\cart.steps.ts:8
+   - And j'ajoute le produit "Sauce Labs Bike Light" au panier # src\steps\cart.steps.ts:8
+   - And j'ajoute le produit "Sauce Labs Bolt T-Shirt" au panier # src\steps\cart.steps.ts:8
+   - Then le badge du panier affiche "3" # src\steps\cart.steps.ts:13
+   √ After # src\support\hooks.ts:55
+
+10) Scenario: Remove product from cart # features\03-cart.feature:18
+    × Before # src\support\hooks.ts:20
+        SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+        Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+            at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+            at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+            at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+            at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    - Given je suis connecté avec "standard_user" et "secret_sauce" # src\steps\search.steps.ts:8
+    - When j'ajoute le produit "Sauce Labs Backpack" au panier # src\steps\cart.steps.ts:8
+    - And je vais au panier # src\steps\cart.steps.ts:19
+    - And je supprime le produit du panier à l'index 0 # src\steps\cart.steps.ts:30
+    - Then le panier est vide # src\steps\cart.steps.ts:35
+    √ After # src\support\hooks.ts:55
+
+11) Scenario: Cart is empty by default # features\03-cart.feature:24
+    × Before # src\support\hooks.ts:20
+        SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+        Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+            at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+            at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+            at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+            at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    - Given je suis connecté avec "standard_user" et "secret_sauce" # src\steps\search.steps.ts:8
+    - When je vais au panier # src\steps\cart.steps.ts:19
+    - Then le panier est vide # src\steps\cart.steps.ts:35
+    √ After # src\support\hooks.ts:55
+
+12) Scenario: Successful checkout form submission # features\04-form.feature:9
+    × Before # src\support\hooks.ts:20
+        SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+        Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+            at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+            at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+            at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+            at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    - Given je suis connecté avec "standard_user" et "secret_sauce" # src\steps\search.steps.ts:8
+    - And j'ajoute le produit "Sauce Labs Backpack" au panier # src\steps\cart.steps.ts:8
+    - And je vais au panier # src\steps\cart.steps.ts:19
+    - And je clique sur le bouton checkout # src\steps\checkout.steps.ts:7
+    - When je remplis le prénom "John" # src\steps\checkout.steps.ts:12
+    - And je remplis le nom "Doe" # src\steps\checkout.steps.ts:17
+    - And je remplis le code postal "75001" # src\steps\checkout.steps.ts:22
+    - And je clique sur continuer # src\steps\checkout.steps.ts:27
+    - Then je suis sur la page de résumé de commande # src\steps\checkout.steps.ts:32
+    √ After # src\support\hooks.ts:55
+
+13) Scenario: Successful order completion # features\04-form.feature:16
+    × Before # src\support\hooks.ts:20
+        SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+        Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+            at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+            at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+            at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+            at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    - Given je suis connecté avec "standard_user" et "secret_sauce" # src\steps\search.steps.ts:8
+    - And j'ajoute le produit "Sauce Labs Backpack" au panier # src\steps\cart.steps.ts:8
+    - And je vais au panier # src\steps\cart.steps.ts:19
+    - And je clique sur le bouton checkout # src\steps\checkout.steps.ts:7
+    - When je remplis le prénom "Marie" # src\steps\checkout.steps.ts:12
+    - And je remplis le nom "Dupont" # src\steps\checkout.steps.ts:17
+    - And je remplis le code postal "69001" # src\steps\checkout.steps.ts:22
+    - And je clique sur continuer # src\steps\checkout.steps.ts:27
+    - And je clique sur terminer la commande # src\steps\checkout.steps.ts:37
+    - Then la commande est confirmée avec le message "Thank you for your order!" # src\steps\checkout.steps.ts:42
+    √ After # src\support\hooks.ts:55
+
+14) Scenario: Checkout fails with missing first name # features\04-form.feature:24
+    × Before # src\support\hooks.ts:20
+        SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+        Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+            at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+            at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+            at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+            at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    - Given je suis connecté avec "standard_user" et "secret_sauce" # src\steps\search.steps.ts:8
+    - And j'ajoute le produit "Sauce Labs Backpack" au panier # src\steps\cart.steps.ts:8
+    - And je vais au panier # src\steps\cart.steps.ts:19
+    - And je clique sur le bouton checkout # src\steps\checkout.steps.ts:7
+    - When je remplis le nom "Doe" # src\steps\checkout.steps.ts:17
+    - And je remplis le code postal "75001" # src\steps\checkout.steps.ts:22
+    - And je clique sur continuer # src\steps\checkout.steps.ts:27
+    - Then un message d'erreur checkout "First Name is required" s'affiche # src\steps\checkout.steps.ts:51
+    √ After # src\support\hooks.ts:55
+
+15) Scenario: Checkout fails with missing last name # features\04-form.feature:30
+    × Before # src\support\hooks.ts:20
+        SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+        Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+            at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+            at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+            at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+            at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    - Given je suis connecté avec "standard_user" et "secret_sauce" # src\steps\search.steps.ts:8
+    - And j'ajoute le produit "Sauce Labs Backpack" au panier # src\steps\cart.steps.ts:8
+    - And je vais au panier # src\steps\cart.steps.ts:19
+    - And je clique sur le bouton checkout # src\steps\checkout.steps.ts:7
+    - When je remplis le prénom "John" # src\steps\checkout.steps.ts:12
+    - And je remplis le code postal "75001" # src\steps\checkout.steps.ts:22
+    - And je clique sur continuer # src\steps\checkout.steps.ts:27
+    - Then un message d'erreur checkout "Last Name is required" s'affiche # src\steps\checkout.steps.ts:51
+    √ After # src\support\hooks.ts:55
+
+16) Scenario: Checkout fails with missing postal code # features\04-form.feature:36
+    × Before # src\support\hooks.ts:20
+        SessionNotCreatedError: session not created: This version of ChromeDriver only supports Chrome version 120
+        Current browser version is 144.0.7559.133 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+            at Object.throwDecodedError (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\error.js:523:15)
+            at parseHttpResponse (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:524:13)
+            at Executor.execute (C:\Users\USER\Desktop\projet-test-selenium-ts\node_modules\selenium-webdriver\lib\http.js:456:28)
+            at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    - Given je suis connecté avec "standard_user" et "secret_sauce" # src\steps\search.steps.ts:8
+    - And j'ajoute le produit "Sauce Labs Backpack" au panier # src\steps\cart.steps.ts:8
+    - And je vais au panier # src\steps\cart.steps.ts:19
+    - And je clique sur le bouton checkout # src\steps\checkout.steps.ts:7
+    - When je remplis le prénom "John" # src\steps\checkout.steps.ts:12
+    - And je remplis le nom "Doe" # src\steps\checkout.steps.ts:17
+    - And je clique sur continuer # src\steps\checkout.steps.ts:27
+    - Then un message d'erreur checkout "Postal Code is required" s'affiche # src\steps\checkout.steps.ts:51
+    √ After # src\support\hooks.ts:55
+
+16 scenarios (16 failed)
+86 steps (86 skipped)
+0m14.631s (executing steps: 0m14.521s)
