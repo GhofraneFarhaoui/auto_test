@@ -1,4 +1,4 @@
-
+#language: fr
 
 Fonctionnalité: Recherche et tri de produits
   En tant qu'utilisateur connecté

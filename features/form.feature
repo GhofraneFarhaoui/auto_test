@@ -1,3 +1,4 @@
+#language: fr
 
 Fonctionnalité: Processus de paiement (checkout)
   En tant qu'utilisateur

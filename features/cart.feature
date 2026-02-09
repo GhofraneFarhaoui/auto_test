@@ -1,4 +1,4 @@
-
+#language: fr
 
 Fonctionnalité: Gestion du panier d'achat
   En tant qu'utilisateur connecté
