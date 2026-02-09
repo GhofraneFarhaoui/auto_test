@@ -1,0 +1,30 @@
+{
+  "name": "projet-test-selenium-ts",
+  "version": "1.0.0",
+  "description": "Projet d'automatisation de tests avec TypeScript, Cucumber et Selenium",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "report": "node generate-report.js",
+    "test:report": "npm test && npm run report",
+    "clean": "rm -rf reports/* dist/*"
+  },
+  "keywords": ["selenium", "cucumber", "typescript", "testing"],
+  "author": "Votre Nom",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.0",
+    "@types/chai": "^4.3.11",
+    "@types/cucumber-html-reporter": "^5.0.4",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.10.6",
+    "@types/selenium-webdriver": "^4.1.20",
+    "chai": "^4.3.10",
+    "chromedriver": "^120.0.1",
+    "cucumber-html-reporter": "^7.1.1",
+    "fs-extra": "^11.2.0",
+    "selenium-webdriver": "^4.16.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
