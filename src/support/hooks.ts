@@ -15,7 +15,7 @@ BeforeAll(async function () {
 });
 
 Before(async function (this: CustomWorld, { pickle }) {
-  console.log(`\n📝 Scénario: ${pickle.name}`);
+  console.log(`\n Scénario: ${pickle.name}`);
   await this.init();
 });
 
